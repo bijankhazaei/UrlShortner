@@ -1,0 +1,33 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and IDE specific
+.env
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and runtime
+*.log
+*.pid
+*.seed
+*.state
+
+# Docker specific
+*.env
+db_data/
+docker-compose.override.yml
+
+# Virtual environments
+venv/
+.venv/
+
+# Others
+*.sqlite3
