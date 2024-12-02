@@ -5,3 +5,5 @@ psycopg2-binary
 aioredis
 pydantic[dotenv]
 alembic
+pydantic>=2.0
+pydantic-settings>=2.0

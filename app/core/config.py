@@ -1,8 +1,9 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    database_url: str
-    redis_url: str
+    DATABASE_URL: str
+    REDIS_URL: str
+    SECRET_KEY: str
     base_url: str
 
     class Config:
